@@ -32,7 +32,8 @@ The code in this repo read data from CSV and run shale-sfdx commands to create x
 5. Run `sfdx force:source:convert -d mdapi/ --packagename data-model` to convert the solution into metadata API compatible package
 6. Run `sfdx force:mdapi:deploy -d mdapi/ -u dev-edition-box -l NoTestRun -w 5` to deploy package to a traditional org with DX Alias `dev-edition-box`
 7. You should see message similar to below.
-```
+
+```bash
 === Result
 Status:  Succeeded
 jobid:  0Af1n00001X5AbNCAV
