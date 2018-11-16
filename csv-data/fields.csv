@@ -1,0 +1,3 @@
+parent,api,label,type,description
+Game__c,Description__c,Description,Text,Game description
+Game__c,ReleaseDate__c,ReleaseDate,Date,Release date

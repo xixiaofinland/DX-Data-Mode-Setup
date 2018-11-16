@@ -1,0 +1,3 @@
+label,plural,api,description
+Game,Games,Game__c,Game Object to store customer's game information
+Season,Seasons,Season__c,Many Season records belongs to Game object;

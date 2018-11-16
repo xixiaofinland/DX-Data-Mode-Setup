@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <deploymentStatus>Deployed</deploymentStatus>
+    <label>Season</label>
+    <pluralLabel>Seasons</pluralLabel>
+    <description>Many Season records belongs to Game object;</description>
+    <nameField>
+        <type>undefined</type>
+        <label>Name</label>
+    </nameField>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

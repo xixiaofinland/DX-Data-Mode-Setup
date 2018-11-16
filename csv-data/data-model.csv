@@ -1,3 +1,0 @@
-object,field,type,description
-Game__c,Description,Text,Game description
-Game__c,Release date,Date,Release date

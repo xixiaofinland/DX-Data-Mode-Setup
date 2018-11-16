@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField>
+    <label>ReleaseDate</label>
+    <type>Date</type>
+    <fullName>ReleaseDate__c</fullName>
+</CustomField>
