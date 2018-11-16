@@ -32,8 +32,12 @@ function createFieldData(fields) {
         stderr
       } = await exec(command);
 
-      console.log('stdout:', stdout);
-      console.log('stderr:', stderr);
+      if (stdout) {
+        console.log('Stdout: => ', stdout);
+      }
+      if (stderr) {
+        console.log('ERROR: => ', stderr);
+      }
     }
   }
 }

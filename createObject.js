@@ -32,8 +32,12 @@ function createObjectData(objects) {
         stderr
       } = await exec(command);
 
-      console.log('Stdout:', stdout);
-      console.log('ERROR: => ', stderr);
+      if (stdout) {
+        console.log('Stdout: => ', stdout);
+      }
+      if (stderr) {
+        console.log('ERROR: => ', stderr);
+      }
     }
   }
 }
