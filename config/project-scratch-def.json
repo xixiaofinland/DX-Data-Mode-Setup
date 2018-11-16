@@ -1,0 +1,11 @@
+{
+    "orgName": "finxxi Company",
+    "edition": "Enterprise",
+    "features": ["Communities", "DebugApex", "API"],
+    "country": "US",
+    "hasSampleData": "false",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled", "ChatterEnabled"],
+        "disabled": ["S1EncryptedStoragePref2"]
+    }
+}

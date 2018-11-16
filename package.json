@@ -1,0 +1,14 @@
+{
+  "name": "dx-skeleton",
+  "version": "1.0.0",
+  "description": "a template for dx project",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ./force-app/main/default/aura"
+  },
+  "author": "Xi Xiao",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1"
+  }
+}
