@@ -8,7 +8,7 @@ It is apparently very tidious work to handle this from GUI.
 
 The logic in this repo is more like POC, there are many hardcoded logic that can be abstracted out.
 
-[shane-sfdx-plugins](https://github.com/mshanemc/shane-sfdx-plugins) is a third-party DX plugin. It allows us to create related xml files which can be converted and pushed into traditional Salesforce org.
+[shane-sfdx-plugins](https://github.com/mshanemc/shane-sfdx-plugins) is a third-party DX plugin, and the core of this repo. It allows us to create related xml files which can be converted and pushed into traditional Salesforce org.
 
 The code in this repo read data from CSV and run shale-sfdx commands to create xml files.
 
