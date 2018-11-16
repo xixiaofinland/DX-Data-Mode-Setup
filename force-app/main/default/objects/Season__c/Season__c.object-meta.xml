@@ -3,9 +3,9 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <label>Season</label>
     <pluralLabel>Seasons</pluralLabel>
-    <description>Many Season records belongs to Game object;</description>
+    <description>Many Season records belongs to Game object</description>
     <nameField>
-        <type>undefined</type>
+        <type>Text</type>
         <label>Name</label>
     </nameField>
     <sharingModel>ReadWrite</sharingModel>

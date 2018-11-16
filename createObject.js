@@ -24,7 +24,7 @@ function createObjectData(objects) {
 
     createObjectDataByDX();
     async function createObjectDataByDX() {
-      let command = `sfdx shane:object:create --label ${object.label} --plural ${object.plural} --api ${object.api} -t custom --description="${object.description}"`;
+      let command = `sfdx shane:object:create --label ${object.label} --plural ${object.plural} --api ${object.api} -t custom --nametype=${object.nameType} --description="${object.description}"`;
       console.log(command);
 
       const {
@@ -48,8 +48,5 @@ function SObject(obj) {
   this.plural = obj.plural;
   this.api = obj.api;
   this.description = obj.description;
-
-  this.print = function () {
-    console.log('this is obj label: ' + this.label);
-  };
+  this.nameType = obj.nameType;
 }

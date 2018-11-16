@@ -5,7 +5,7 @@
     <pluralLabel>Games</pluralLabel>
     <description>Game Object to store customer's game information</description>
     <nameField>
-        <type>undefined</type>
+        <type>Text</type>
         <label>Name</label>
     </nameField>
     <sharingModel>ReadWrite</sharingModel>
