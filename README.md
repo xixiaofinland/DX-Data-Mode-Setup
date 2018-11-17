@@ -51,4 +51,4 @@ Check only: false
 
 If you are a video person, perhaps you wanna see my demo of how this repo works.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2_JCGqd2KPk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Demo](https://img.youtube.com/vi/2_JCGqd2KPk/0.jpg)](https://www.youtube.com/watch?v=2_JCGqd2KPk)
