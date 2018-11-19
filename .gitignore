@@ -8,3 +8,4 @@ node_modules
 assets/server.key
 .vscode
 mdapi/
+force-app/main/default/objects/
